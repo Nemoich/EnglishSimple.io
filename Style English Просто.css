@@ -1,0 +1,52 @@
+.iframe-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+iframe{
+margin:10px;
+transition:all 1s;
+}
+
+iframe:hover {
+	transform: scale(1.1);
+}
+
+h1{
+	font-style: italic;
+	border-bottom: 2px solid pink;
+	width: 600px;
+	text-align: center;
+	
+}
+
+p{
+	text-indent: 25px;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+	transition: all 1s;
+}
+
+p:hover {
+	transform: scale(1.04)
+}
+
+img{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	transition:all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+h3{
+	text-align: right;
+	margin-right: 25px;
+}
+
